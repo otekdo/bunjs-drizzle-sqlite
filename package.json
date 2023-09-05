@@ -1,0 +1,20 @@
+{
+  "name": "bun-drizzle-sqlite",
+  "version": "1.0.48",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "studio": "bunx drizzle-kit studio"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^0.6.0",
+    "drizzle-orm": "^0.28.5",
+    "drizzle-orm-sqlite": "^0.16.1",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.19.13"
+  },
+  "module": "src/index.js"
+}
