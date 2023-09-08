@@ -2,7 +2,7 @@ import { drizzle } from "drizzle-orm/bun-sqlite";
 import { Database } from "bun:sqlite";
 import { users, InsertUser } from "./schema/users";
 
-const sqlite = new Database("northwind.db");
+const sqlite = new Database("example.db");
 const db = drizzle(sqlite);
 
 export const readUsers = () => {

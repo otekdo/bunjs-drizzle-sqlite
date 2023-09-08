@@ -5,6 +5,6 @@ export default {
   out: "./src/db/migrations",
   driver: "libsql",
   dbCredentials: {
-    url: "file:./northwind.db",
+    url: "file:./example.db",
   },
 } satisfies Config;

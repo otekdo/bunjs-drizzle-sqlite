@@ -1,6 +1,6 @@
 import { Elysia } from "elysia";
 import { swagger } from "@elysiajs/swagger";
-import { readUsers } from "./db/index";
+import { readUsers } from "./db/";
 
 const app = new Elysia()
   .use(swagger())
